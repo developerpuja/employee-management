@@ -1,7 +1,7 @@
-package com.employee_management.employee_management.controller;
+package com.employee_management.controller;
 
-import com.employee_management.employee_management.entity.Employee;
-import com.employee_management.employee_management.service.EmployeeService;
+import com.employee_management.entity.Employee;
+import com.employee_management.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

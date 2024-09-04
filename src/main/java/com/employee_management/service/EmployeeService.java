@@ -1,7 +1,7 @@
-package com.employee_management.employee_management.service;
+package com.employee_management.service;
 
-import com.employee_management.employee_management.entity.Employee;
-import com.employee_management.employee_management.repository.EmployeeRepository;
+import com.employee_management.entity.Employee;
+import com.employee_management.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.employee_management.employee_management.repository;
+package com.employee_management.repository;
 
-import com.employee_management.employee_management.entity.Employee;
+import com.employee_management.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
