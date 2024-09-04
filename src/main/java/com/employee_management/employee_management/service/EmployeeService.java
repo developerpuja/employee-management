@@ -44,6 +44,7 @@ public class EmployeeService {
            if (existingEmp != null) {
                existingEmp.setName(employee.getName());
                existingEmp.setCity(employee.getCity());
+               
                existingEmp.setDepartment(employee.getDepartment());
                existingEmp.setPinCode(employee.getPinCode());
                updatedEmp = employeeRepository.save(existingEmp);
